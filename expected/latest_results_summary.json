@@ -1,0 +1,1433 @@
+{
+  "records": 1696,
+  "models": 15,
+  "judges": 2,
+  "total_item_model_pairs": 25440,
+  "substantive_item_model_pairs": 25390,
+  "substantive_pairs_no_valid_score": 3,
+  "target_nonresponses": 50,
+  "total_decisions": 50880,
+  "invalid_on_target_nonresponses": 96,
+  "substantive_evaluator_abstentions": 2484,
+  "substantive_eligible_decisions": 50780,
+  "overall_abstention_rate": 0.04891689641591178,
+  "unique_questions": 1680,
+  "value_assignments": 1719,
+  "score_below_0_2": 0.6106132075471699,
+  "score_at_least_0_8": 0.30377358490566037,
+  "pairwise_agreement": {
+    "n": 22909,
+    "agreement": 0.9049281941595007,
+    "kappa": 0.7949335244313658
+  },
+  "paired_positive_rates": {
+    "DeepSeek": 0.37836658081976515,
+    "Doubao": 0.35042996202365884,
+    "doubao_minus_deepseek": -0.027936618796106316
+  },
+  "directional_disagreement": {
+    "deepseek_one_doubao_zero": 1409,
+    "deepseek_zero_doubao_one": 769
+  },
+  "judge_summary": [
+    {
+      "judge": "DeepSeek",
+      "eligible": 25390,
+      "invalid": 18,
+      "abstention_rate": 0.0007089405277668373,
+      "valid": 25372,
+      "positive": 9132,
+      "positive_rate_valid": 0.35992432602869306
+    },
+    {
+      "judge": "Doubao",
+      "eligible": 25390,
+      "invalid": 2466,
+      "abstention_rate": 0.09712485230405672,
+      "valid": 22924,
+      "positive": 8033,
+      "positive_rate_valid": 0.35041877508288255
+    }
+  ],
+  "drop_one_judge": [
+    {
+      "judge_kept": "DeepSeek",
+      "rank_correlation": 0.8964285714285712
+    },
+    {
+      "judge_kept": "Doubao",
+      "rank_correlation": 0.9571428571428571
+    }
+  ],
+  "judge_rank_correlation": 0.8178571428571428,
+  "judge_only_rankings": {
+    "DeepSeek": [
+      {
+        "model": "doubao-seed-1-6-250615",
+        "display": "Doubao Seed 1.6",
+        "score": 0.5194575471698113
+      },
+      {
+        "model": "MiniMax-M3",
+        "display": "MiniMax-M3",
+        "score": 0.5117924528301887
+      },
+      {
+        "model": "kimi-k3",
+        "display": "Kimi K3",
+        "score": 0.5005896226415094
+      },
+      {
+        "model": "qwen3.7-plus",
+        "display": "Qwen3.7-Plus",
+        "score": 0.44516509433962265
+      },
+      {
+        "model": "kimi-k2-turbo-preview",
+        "display": "Kimi K2 Turbo",
+        "score": 0.38325471698113206
+      },
+      {
+        "model": "qwen3-max-preview",
+        "display": "Qwen3 Max",
+        "score": 0.38207547169811323
+      },
+      {
+        "model": "deepseek-v4-flash",
+        "display": "DeepSeek-V4-Flash",
+        "score": 0.3714622641509434
+      },
+      {
+        "model": "x1",
+        "display": "Spark X1",
+        "score": 0.32252358490566035
+      },
+      {
+        "model": "glm-4.5",
+        "display": "GLM-4.5",
+        "score": 0.31662735849056606
+      },
+      {
+        "model": "glm-5.2",
+        "display": "GLM-5.2",
+        "score": 0.3136792452830189
+      },
+      {
+        "model": "SenseChat-5-1202",
+        "display": "SenseChat-5",
+        "score": 0.27712264150943394
+      },
+      {
+        "model": "MiniMax-M1",
+        "display": "MiniMax-M1",
+        "score": 0.263561320754717
+      },
+      {
+        "model": "ernie-x1-turbo-32k",
+        "display": "ERNIE X1 Turbo",
+        "score": 0.2623820754716981
+      },
+      {
+        "model": "hunyuan-t1-20250711",
+        "display": "Hunyuan T1",
+        "score": 0.2606132075471698
+      },
+      {
+        "model": "deepseek-reasoner",
+        "display": "DeepSeek-R1",
+        "score": 0.25412735849056606
+      }
+    ],
+    "Doubao": [
+      {
+        "model": "doubao-seed-1-6-250615",
+        "display": "Doubao Seed 1.6",
+        "score": 0.5005896226415094
+      },
+      {
+        "model": "kimi-k3",
+        "display": "Kimi K3",
+        "score": 0.4534198113207547
+      },
+      {
+        "model": "MiniMax-M3",
+        "display": "MiniMax-M3",
+        "score": 0.4481132075471698
+      },
+      {
+        "model": "qwen3.7-plus",
+        "display": "Qwen3.7-Plus",
+        "score": 0.44752358490566035
+      },
+      {
+        "model": "deepseek-v4-flash",
+        "display": "DeepSeek-V4-Flash",
+        "score": 0.34787735849056606
+      },
+      {
+        "model": "qwen3-max-preview",
+        "display": "Qwen3 Max",
+        "score": 0.33962264150943394
+      },
+      {
+        "model": "kimi-k2-turbo-preview",
+        "display": "Kimi K2 Turbo",
+        "score": 0.33726415094339623
+      },
+      {
+        "model": "glm-5.2",
+        "display": "GLM-5.2",
+        "score": 0.3071933962264151
+      },
+      {
+        "model": "glm-4.5",
+        "display": "GLM-4.5",
+        "score": 0.2641509433962264
+      },
+      {
+        "model": "hunyuan-t1-20250711",
+        "display": "Hunyuan T1",
+        "score": 0.25589622641509435
+      },
+      {
+        "model": "ernie-x1-turbo-32k",
+        "display": "ERNIE X1 Turbo",
+        "score": 0.24941037735849056
+      },
+      {
+        "model": "deepseek-reasoner",
+        "display": "DeepSeek-R1",
+        "score": 0.23879716981132076
+      },
+      {
+        "model": "MiniMax-M1",
+        "display": "MiniMax-M1",
+        "score": 0.2258254716981132
+      },
+      {
+        "model": "SenseChat-5-1202",
+        "display": "SenseChat-5",
+        "score": 0.20224056603773585
+      },
+      {
+        "model": "x1",
+        "display": "Spark X1",
+        "score": 0.11851415094339622
+      }
+    ]
+  },
+  "target_judge_behavior": [
+    {
+      "model": "deepseek-reasoner",
+      "display": "DeepSeek-R1",
+      "short": "DeepSeek",
+      "paired_valid": 1518,
+      "deepseek_positive_rate_paired": 0.2766798418972332,
+      "doubao_positive_rate_paired": 0.26679841897233203,
+      "doubao_minus_deepseek": -0.009881422924901184,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.10495283018867925
+    },
+    {
+      "model": "doubao-seed-1-6-250615",
+      "display": "Doubao Seed 1.6",
+      "short": "Doubao",
+      "paired_valid": 1488,
+      "deepseek_positive_rate_paired": 0.5228494623655914,
+      "doubao_positive_rate_paired": 0.5698924731182796,
+      "doubao_minus_deepseek": 0.04704301075268824,
+      "deepseek_abstention_rate": 0.0005899705014749262,
+      "doubao_abstention_rate": 0.1215339233038348
+    },
+    {
+      "model": "ernie-x1-turbo-32k",
+      "display": "ERNIE X1 Turbo",
+      "short": "ERNIE",
+      "paired_valid": 1493,
+      "deepseek_positive_rate_paired": 0.289350301406564,
+      "doubao_positive_rate_paired": 0.2833221701272606,
+      "doubao_minus_deepseek": -0.006028131279303406,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.11969339622641509
+    },
+    {
+      "model": "glm-4.5",
+      "display": "GLM-4.5",
+      "short": "GLM-4.5",
+      "paired_valid": 1477,
+      "deepseek_positive_rate_paired": 0.34867975626269465,
+      "doubao_positive_rate_paired": 0.3019634394041977,
+      "doubao_minus_deepseek": -0.046716316858496976,
+      "deepseek_abstention_rate": 0.0023612750885478157,
+      "doubao_abstention_rate": 0.1269185360094451
+    },
+    {
+      "model": "hunyuan-t1-20250711",
+      "display": "Hunyuan T1",
+      "short": "Hunyuan",
+      "paired_valid": 1555,
+      "deepseek_positive_rate_paired": 0.2790996784565916,
+      "doubao_positive_rate_paired": 0.2790996784565916,
+      "doubao_minus_deepseek": 0.0,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.08313679245283019
+    },
+    {
+      "model": "kimi-k2-turbo-preview",
+      "display": "Kimi K2 Turbo",
+      "short": "Kimi K2",
+      "paired_valid": 1516,
+      "deepseek_positive_rate_paired": 0.4109498680738786,
+      "doubao_positive_rate_paired": 0.37730870712401055,
+      "doubao_minus_deepseek": -0.033641160949868076,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.1050767414403778
+    },
+    {
+      "model": "MiniMax-M1",
+      "display": "MiniMax-M1",
+      "short": "MiniMax-M1",
+      "paired_valid": 1532,
+      "deepseek_positive_rate_paired": 0.2859007832898172,
+      "doubao_positive_rate_paired": 0.25,
+      "doubao_minus_deepseek": -0.03590078328981722,
+      "deepseek_abstention_rate": 0.004793289394847214,
+      "doubao_abstention_rate": 0.07789095266626722
+    },
+    {
+      "model": "qwen3-max-preview",
+      "display": "Qwen3 Max",
+      "short": "Qwen3 Max",
+      "paired_valid": 1536,
+      "deepseek_positive_rate_paired": 0.4055989583333333,
+      "doubao_positive_rate_paired": 0.3743489583333333,
+      "doubao_minus_deepseek": -0.03125,
+      "deepseek_abstention_rate": 0.0005896226415094339,
+      "doubao_abstention_rate": 0.09375
+    },
+    {
+      "model": "SenseChat-5-1202",
+      "display": "SenseChat-5",
+      "short": "SenseChat",
+      "paired_valid": 1491,
+      "deepseek_positive_rate_paired": 0.2917505030181087,
+      "doubao_positive_rate_paired": 0.22937625754527163,
+      "doubao_minus_deepseek": -0.06237424547283704,
+      "deepseek_abstention_rate": 0.0017730496453900709,
+      "doubao_abstention_rate": 0.11702127659574468
+    },
+    {
+      "model": "x1",
+      "display": "Spark X1",
+      "short": "Spark X1",
+      "paired_valid": 1254,
+      "deepseek_positive_rate_paired": 0.3365231259968102,
+      "doubao_positive_rate_paired": 0.16028708133971292,
+      "doubao_minus_deepseek": -0.1762360446570973,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.2579881656804734
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "display": "DeepSeek-V4-Flash",
+      "short": "DS-V4-Flash",
+      "paired_valid": 1622,
+      "deepseek_positive_rate_paired": 0.38224414303329224,
+      "doubao_positive_rate_paired": 0.3637484586929716,
+      "doubao_minus_deepseek": -0.018495684340320617,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.04363207547169811
+    },
+    {
+      "model": "qwen3.7-plus",
+      "display": "Qwen3.7-Plus",
+      "short": "Qwen3.7",
+      "paired_valid": 1640,
+      "deepseek_positive_rate_paired": 0.4524390243902439,
+      "doubao_positive_rate_paired": 0.4628048780487805,
+      "doubao_minus_deepseek": 0.010365853658536595,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.0330188679245283
+    },
+    {
+      "model": "glm-5.2",
+      "display": "GLM-5.2",
+      "short": "GLM-5.2",
+      "paired_valid": 1591,
+      "deepseek_positive_rate_paired": 0.3312382149591452,
+      "doubao_positive_rate_paired": 0.3274670018856065,
+      "doubao_minus_deepseek": -0.0037712130735386706,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.05969267139479906
+    },
+    {
+      "model": "kimi-k3",
+      "display": "Kimi K3",
+      "short": "Kimi K3",
+      "paired_valid": 1564,
+      "deepseek_positive_rate_paired": 0.5134271099744245,
+      "doubao_positive_rate_paired": 0.49168797953964194,
+      "doubao_minus_deepseek": -0.021739130434782594,
+      "deepseek_abstention_rate": 0.0005903187721369539,
+      "doubao_abstention_rate": 0.07615112160566706
+    },
+    {
+      "model": "MiniMax-M3",
+      "display": "MiniMax-M3",
+      "short": "MiniMax-M3",
+      "paired_valid": 1632,
+      "deepseek_positive_rate_paired": 0.5245098039215687,
+      "doubao_positive_rate_paired": 0.46568627450980393,
+      "doubao_minus_deepseek": -0.05882352941176472,
+      "deepseek_abstention_rate": 0.0,
+      "doubao_abstention_rate": 0.03659976387249114
+    }
+  ],
+  "value_judge_behavior": [
+    {
+      "value": "Prosperity",
+      "paired_valid": 1007,
+      "deepseek_positive_rate_paired": 0.42204568023833167,
+      "doubao_positive_rate_paired": 0.35650446871896724,
+      "doubao_minus_deepseek": -0.06554121151936443
+    },
+    {
+      "value": "Democracy",
+      "paired_valid": 1615,
+      "deepseek_positive_rate_paired": 0.3876160990712074,
+      "doubao_positive_rate_paired": 0.33374613003095976,
+      "doubao_minus_deepseek": -0.053869969040247656
+    },
+    {
+      "value": "Civility",
+      "paired_valid": 1806,
+      "deepseek_positive_rate_paired": 0.3122923588039867,
+      "doubao_positive_rate_paired": 0.3078626799557032,
+      "doubao_minus_deepseek": -0.0044296788482834915
+    },
+    {
+      "value": "Harmony",
+      "paired_valid": 1618,
+      "deepseek_positive_rate_paired": 0.3479604449938195,
+      "doubao_positive_rate_paired": 0.315203955500618,
+      "doubao_minus_deepseek": -0.03275648949320148
+    },
+    {
+      "value": "Freedom",
+      "paired_valid": 1884,
+      "deepseek_positive_rate_paired": 0.4124203821656051,
+      "doubao_positive_rate_paired": 0.37208067940552014,
+      "doubao_minus_deepseek": -0.04033970276008497
+    },
+    {
+      "value": "Equality",
+      "paired_valid": 2039,
+      "deepseek_positive_rate_paired": 0.3173124080431584,
+      "doubao_positive_rate_paired": 0.31093673369298674,
+      "doubao_minus_deepseek": -0.006375674350171667
+    },
+    {
+      "value": "Justice",
+      "paired_valid": 2085,
+      "deepseek_positive_rate_paired": 0.4062350119904077,
+      "doubao_positive_rate_paired": 0.37841726618705035,
+      "doubao_minus_deepseek": -0.02781774580335733
+    },
+    {
+      "value": "Rule of Law",
+      "paired_valid": 2808,
+      "deepseek_positive_rate_paired": 0.4163105413105413,
+      "doubao_positive_rate_paired": 0.39351851851851855,
+      "doubao_minus_deepseek": -0.022792022792022748
+    },
+    {
+      "value": "Patriotism",
+      "paired_valid": 1875,
+      "deepseek_positive_rate_paired": 0.4437333333333333,
+      "doubao_positive_rate_paired": 0.4202666666666667,
+      "doubao_minus_deepseek": -0.023466666666666636
+    },
+    {
+      "value": "Dedication",
+      "paired_valid": 1838,
+      "deepseek_positive_rate_paired": 0.30794341675734493,
+      "doubao_positive_rate_paired": 0.2801958650707291,
+      "doubao_minus_deepseek": -0.027747551686615857
+    },
+    {
+      "value": "Integrity",
+      "paired_valid": 2091,
+      "deepseek_positive_rate_paired": 0.476805356288857,
+      "doubao_positive_rate_paired": 0.4519368723098996,
+      "doubao_minus_deepseek": -0.024868483978957412
+    },
+    {
+      "value": "Friendliness",
+      "paired_valid": 2554,
+      "deepseek_positive_rate_paired": 0.3191072826938136,
+      "doubao_positive_rate_paired": 0.29052466718872355,
+      "doubao_minus_deepseek": -0.02858261550509006
+    }
+  ],
+  "leave_self_out": {
+    "deepseek-reasoner": 0.23879716981132076,
+    "doubao-seed-1-6-250615": 0.5194575471698113
+  },
+  "self_judge_comparison": [
+    {
+      "target": "deepseek-reasoner",
+      "self_judge": "DeepSeek",
+      "other_judge": "Doubao",
+      "paired_valid": 1518,
+      "self_positive_rate": 0.2766798418972332,
+      "other_positive_rate": 0.26679841897233203,
+      "self_minus_other": 0.009881422924901184
+    },
+    {
+      "target": "doubao-seed-1-6-250615",
+      "self_judge": "Doubao",
+      "other_judge": "DeepSeek",
+      "paired_valid": 1488,
+      "self_positive_rate": 0.5698924731182796,
+      "other_positive_rate": 0.5228494623655914,
+      "self_minus_other": 0.04704301075268824
+    }
+  ],
+  "historical_judge_panel": {
+    "targets": 10,
+    "judges": 3,
+    "all_three_valid_pairs": 14434,
+    "judge_summary": [
+      {
+        "judge": "DeepSeek",
+        "eligible": 16918,
+        "invalid": 17,
+        "abstention_rate": 0.00100484690861804,
+        "valid": 16901,
+        "positive": 5498,
+        "positive_rate_valid": 0.3253061948997101,
+        "positive_rate_all_three_valid": 0.3434945268116946
+      },
+      {
+        "judge": "Doubao",
+        "eligible": 16918,
+        "invalid": 2044,
+        "abstention_rate": 0.12081806360089845,
+        "valid": 14874,
+        "positive": 4634,
+        "positive_rate_valid": 0.3115503563264757,
+        "positive_rate_all_three_valid": 0.32063184148538176
+      },
+      {
+        "judge": "Hunyuan",
+        "eligible": 16918,
+        "invalid": 732,
+        "abstention_rate": 0.043267525712259135,
+        "valid": 16186,
+        "positive": 5856,
+        "positive_rate_valid": 0.36179414308661806,
+        "positive_rate_all_three_valid": 0.3865872246085631
+      }
+    ],
+    "pairwise_agreement": [
+      {
+        "left": "DeepSeek",
+        "right": "Doubao",
+        "n": 14860,
+        "agreement": 0.8991251682368775,
+        "kappa": 0.7714647850735996
+      },
+      {
+        "left": "DeepSeek",
+        "right": "Hunyuan",
+        "n": 16169,
+        "agreement": 0.9199703135629909,
+        "kappa": 0.8226275444338953
+      },
+      {
+        "left": "Doubao",
+        "right": "Hunyuan",
+        "n": 14448,
+        "agreement": 0.8824750830564784,
+        "kappa": 0.7441562947018825
+      }
+    ],
+    "judge_rank_correlations": [
+      {
+        "left": "DeepSeek",
+        "right": "Doubao",
+        "rank_correlation": 0.5272727272727272
+      },
+      {
+        "left": "DeepSeek",
+        "right": "Hunyuan",
+        "rank_correlation": 0.7333333333333332
+      },
+      {
+        "left": "Doubao",
+        "right": "Hunyuan",
+        "rank_correlation": 0.7939393939393938
+      }
+    ],
+    "target_judge_behavior": [
+      {
+        "model": "deepseek-reasoner",
+        "display": "DeepSeek-R1",
+        "short": "DeepSeek",
+        "all_three_valid": 1518,
+        "deepseek_positive_rate_all_three_valid": 0.2766798418972332,
+        "deepseek_abstention_rate": 0.0,
+        "doubao_positive_rate_all_three_valid": 0.26679841897233203,
+        "doubao_abstention_rate": 0.10495283018867925,
+        "hunyuan_positive_rate_all_three_valid": 0.3089591567852437,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "doubao-seed-1-6-250615",
+        "display": "Doubao Seed 1.6",
+        "short": "Doubao",
+        "all_three_valid": 1488,
+        "deepseek_positive_rate_all_three_valid": 0.5228494623655914,
+        "deepseek_abstention_rate": 0.0005899705014749262,
+        "doubao_positive_rate_all_three_valid": 0.5698924731182796,
+        "doubao_abstention_rate": 0.1215339233038348,
+        "hunyuan_positive_rate_all_three_valid": 0.5497311827956989,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "ernie-x1-turbo-32k",
+        "display": "ERNIE X1 Turbo",
+        "short": "ERNIE",
+        "all_three_valid": 1493,
+        "deepseek_positive_rate_all_three_valid": 0.289350301406564,
+        "deepseek_abstention_rate": 0.0,
+        "doubao_positive_rate_all_three_valid": 0.2833221701272606,
+        "doubao_abstention_rate": 0.11969339622641509,
+        "hunyuan_positive_rate_all_three_valid": 0.32953784326858676,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "glm-4.5",
+        "display": "GLM-4.5",
+        "short": "GLM-4.5",
+        "all_three_valid": 1477,
+        "deepseek_positive_rate_all_three_valid": 0.34867975626269465,
+        "deepseek_abstention_rate": 0.0023612750885478157,
+        "doubao_positive_rate_all_three_valid": 0.3019634394041977,
+        "doubao_abstention_rate": 0.1269185360094451,
+        "hunyuan_positive_rate_all_three_valid": 0.40216655382532157,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "hunyuan-t1-20250711",
+        "display": "Hunyuan T1",
+        "short": "Hunyuan",
+        "all_three_valid": 1555,
+        "deepseek_positive_rate_all_three_valid": 0.2790996784565916,
+        "deepseek_abstention_rate": 0.0,
+        "doubao_positive_rate_all_three_valid": 0.2790996784565916,
+        "doubao_abstention_rate": 0.08313679245283019,
+        "hunyuan_positive_rate_all_three_valid": 0.3131832797427653,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "kimi-k2-turbo-preview",
+        "display": "Kimi K2 Turbo",
+        "short": "Kimi K2",
+        "all_three_valid": 1516,
+        "deepseek_positive_rate_all_three_valid": 0.4109498680738786,
+        "deepseek_abstention_rate": 0.0,
+        "doubao_positive_rate_all_three_valid": 0.37730870712401055,
+        "doubao_abstention_rate": 0.1050767414403778,
+        "hunyuan_positive_rate_all_three_valid": 0.4393139841688654,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "MiniMax-M1",
+        "display": "MiniMax-M1",
+        "short": "MiniMax-M1",
+        "all_three_valid": 1532,
+        "deepseek_positive_rate_all_three_valid": 0.2859007832898172,
+        "deepseek_abstention_rate": 0.004793289394847214,
+        "doubao_positive_rate_all_three_valid": 0.25,
+        "doubao_abstention_rate": 0.07789095266626722,
+        "hunyuan_positive_rate_all_three_valid": 0.3302872062663185,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "qwen3-max-preview",
+        "display": "Qwen3 Max",
+        "short": "Qwen3 Max",
+        "all_three_valid": 1536,
+        "deepseek_positive_rate_all_three_valid": 0.4055989583333333,
+        "deepseek_abstention_rate": 0.0005896226415094339,
+        "doubao_positive_rate_all_three_valid": 0.3743489583333333,
+        "doubao_abstention_rate": 0.09375,
+        "hunyuan_positive_rate_all_three_valid": 0.4713541666666667,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "SenseChat-5-1202",
+        "display": "SenseChat-5",
+        "short": "SenseChat",
+        "all_three_valid": 1491,
+        "deepseek_positive_rate_all_three_valid": 0.2917505030181087,
+        "deepseek_abstention_rate": 0.0017730496453900709,
+        "doubao_positive_rate_all_three_valid": 0.22937625754527163,
+        "doubao_abstention_rate": 0.11702127659574468,
+        "hunyuan_positive_rate_all_three_valid": 0.3420523138832998,
+        "hunyuan_abstention_rate": 0.0
+      },
+      {
+        "model": "x1",
+        "display": "Spark X1",
+        "short": "Spark X1",
+        "all_three_valid": 828,
+        "deepseek_positive_rate_all_three_valid": 0.3140096618357488,
+        "deepseek_abstention_rate": 0.0,
+        "doubao_positive_rate_all_three_valid": 0.24154589371980675,
+        "doubao_abstention_rate": 0.2579881656804734,
+        "hunyuan_positive_rate_all_three_valid": 0.37922705314009664,
+        "hunyuan_abstention_rate": 0.4331360946745562
+      }
+    ]
+  },
+  "models_by_score": [
+    {
+      "model": "doubao-seed-1-6-250615",
+      "display": "Doubao Seed 1.6",
+      "short": "Doubao",
+      "new_model": false,
+      "responses": 1695,
+      "target_nonresponses": 1,
+      "score": 0.5406839622641509,
+      "ci_low": 0.5185731132075472,
+      "ci_high": 0.5625073702830188,
+      "abstention_rate": 0.061061946902654866,
+      "strict_two_of_two": 0.4215801886792453,
+      "bound_low": 0.5100235849056604,
+      "bound_high": 0.5710495283018868,
+      "deduplicated": 0.5369047619047619
+    },
+    {
+      "model": "kimi-k3",
+      "display": "Kimi K3",
+      "short": "Kimi K3",
+      "new_model": true,
+      "responses": 1694,
+      "target_nonresponses": 2,
+      "score": 0.49056603773584906,
+      "ci_low": 0.4684551886792453,
+      "ci_high": 0.5135613207547169,
+      "abstention_rate": 0.03837072018890201,
+      "strict_two_of_two": 0.4180424528301887,
+      "bound_low": 0.47700471698113206,
+      "bound_high": 0.5153301886792453,
+      "deduplicated": 0.49330357142857145
+    },
+    {
+      "model": "MiniMax-M3",
+      "display": "MiniMax-M3",
+      "short": "MiniMax-M3",
+      "new_model": true,
+      "responses": 1694,
+      "target_nonresponses": 2,
+      "score": 0.4834905660377358,
+      "ci_low": 0.46108490566037735,
+      "ci_high": 0.5058962264150944,
+      "abstention_rate": 0.01829988193624557,
+      "strict_two_of_two": 0.42865566037735847,
+      "bound_low": 0.47995283018867924,
+      "bound_high": 0.4982311320754717,
+      "deduplicated": 0.48482142857142857
+    },
+    {
+      "model": "qwen3.7-plus",
+      "display": "Qwen3.7-Plus",
+      "short": "Qwen3.7",
+      "new_model": true,
+      "responses": 1696,
+      "target_nonresponses": 0,
+      "score": 0.4501768867924528,
+      "ci_low": 0.42777122641509435,
+      "ci_high": 0.4725825471698113,
+      "abstention_rate": 0.01650943396226415,
+      "strict_two_of_two": 0.39858490566037735,
+      "bound_low": 0.44634433962264153,
+      "bound_high": 0.46285377358490565,
+      "deduplicated": 0.45282738095238095
+    },
+    {
+      "model": "qwen3-max-preview",
+      "display": "Qwen3 Max",
+      "short": "Qwen3 Max",
+      "new_model": false,
+      "responses": 1696,
+      "target_nonresponses": 0,
+      "score": 0.36851415094339623,
+      "ci_low": 0.34610849056603776,
+      "ci_high": 0.3912146226415094,
+      "abstention_rate": 0.04716981132075472,
+      "strict_two_of_two": 0.32075471698113206,
+      "bound_low": 0.3608490566037736,
+      "bound_high": 0.4080188679245283,
+      "deduplicated": 0.37142857142857144
+    },
+    {
+      "model": "kimi-k2-turbo-preview",
+      "display": "Kimi K2 Turbo",
+      "short": "Kimi K2",
+      "new_model": false,
+      "responses": 1694,
+      "target_nonresponses": 2,
+      "score": 0.36821933962264153,
+      "ci_low": 0.3466981132075472,
+      "ci_high": 0.3909198113207547,
+      "abstention_rate": 0.0525383707201889,
+      "strict_two_of_two": 0.3142688679245283,
+      "bound_low": 0.3602594339622642,
+      "bound_high": 0.41273584905660377,
+      "deduplicated": 0.37142857142857144
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "display": "DeepSeek-V4-Flash",
+      "short": "DS-V4-Flash",
+      "new_model": true,
+      "responses": 1696,
+      "target_nonresponses": 0,
+      "score": 0.3626179245283019,
+      "ci_low": 0.34108932783018864,
+      "ci_high": 0.38443396226415094,
+      "abstention_rate": 0.021816037735849055,
+      "strict_two_of_two": 0.3242924528301887,
+      "bound_low": 0.3596698113207547,
+      "bound_high": 0.38148584905660377,
+      "deduplicated": 0.3657738095238095
+    },
+    {
+      "model": "glm-5.2",
+      "display": "GLM-5.2",
+      "short": "GLM-5.2",
+      "new_model": true,
+      "responses": 1692,
+      "target_nonresponses": 4,
+      "score": 0.3119103773584906,
+      "ci_low": 0.2915610259433962,
+      "ci_high": 0.33254716981132076,
+      "abstention_rate": 0.02984633569739953,
+      "strict_two_of_two": 0.2783018867924528,
+      "bound_low": 0.310436320754717,
+      "bound_high": 0.3402122641509434,
+      "deduplicated": 0.3145833333333333
+    },
+    {
+      "model": "glm-4.5",
+      "display": "GLM-4.5",
+      "short": "GLM-4.5",
+      "new_model": false,
+      "responses": 1694,
+      "target_nonresponses": 2,
+      "score": 0.2974646226415094,
+      "ci_low": 0.27711527122641505,
+      "ci_high": 0.3175117924528302,
+      "abstention_rate": 0.06463990554899646,
+      "strict_two_of_two": 0.24528301886792453,
+      "bound_low": 0.29038915094339623,
+      "bound_high": 0.35495283018867924,
+      "deduplicated": 0.3
+    },
+    {
+      "model": "hunyuan-t1-20250711",
+      "display": "Hunyuan T1",
+      "short": "Hunyuan",
+      "new_model": false,
+      "responses": 1696,
+      "target_nonresponses": 0,
+      "score": 0.2606132075471698,
+      "ci_low": 0.2414504716981132,
+      "ci_high": 0.2806603773584906,
+      "abstention_rate": 0.041568396226415096,
+      "strict_two_of_two": 0.21639150943396226,
+      "bound_low": 0.25825471698113206,
+      "bound_high": 0.2998231132075472,
+      "deduplicated": 0.26279761904761906
+    },
+    {
+      "model": "ernie-x1-turbo-32k",
+      "display": "ERNIE X1 Turbo",
+      "short": "ERNIE",
+      "new_model": false,
+      "responses": 1696,
+      "target_nonresponses": 0,
+      "score": 0.25972877358490565,
+      "ci_low": 0.24086084905660377,
+      "ci_high": 0.2797759433962264,
+      "abstention_rate": 0.059846698113207544,
+      "strict_two_of_two": 0.2099056603773585,
+      "bound_low": 0.25589622641509435,
+      "bound_high": 0.3157429245283019,
+      "deduplicated": 0.2619047619047619
+    },
+    {
+      "model": "x1",
+      "display": "Spark X1",
+      "short": "Spark X1",
+      "new_model": false,
+      "responses": 1690,
+      "target_nonresponses": 6,
+      "score": 0.25737028301886794,
+      "ci_low": 0.23879716981132076,
+      "ci_high": 0.27653301886792453,
+      "abstention_rate": 0.1289940828402367,
+      "strict_two_of_two": 0.11320754716981132,
+      "bound_low": 0.2205188679245283,
+      "bound_high": 0.3490566037735849,
+      "deduplicated": 0.259375
+    },
+    {
+      "model": "SenseChat-5-1202",
+      "display": "SenseChat-5",
+      "short": "SenseChat",
+      "new_model": false,
+      "responses": 1692,
+      "target_nonresponses": 4,
+      "score": 0.2502948113207547,
+      "ci_low": 0.23113207547169812,
+      "ci_high": 0.26975235849056606,
+      "abstention_rate": 0.05939716312056738,
+      "strict_two_of_two": 0.18337264150943397,
+      "bound_low": 0.2396816037735849,
+      "bound_high": 0.298938679245283,
+      "deduplicated": 0.2523809523809524
+    },
+    {
+      "model": "deepseek-reasoner",
+      "display": "DeepSeek-R1",
+      "short": "DeepSeek",
+      "new_model": false,
+      "responses": 1696,
+      "target_nonresponses": 0,
+      "score": 0.2497051886792453,
+      "ci_low": 0.23083726415094338,
+      "ci_high": 0.2691627358490566,
+      "abstention_rate": 0.052476415094339625,
+      "strict_two_of_two": 0.20106132075471697,
+      "bound_low": 0.24646226415094338,
+      "bound_high": 0.298938679245283,
+      "deduplicated": 0.2517857142857143
+    },
+    {
+      "model": "MiniMax-M1",
+      "display": "MiniMax-M1",
+      "short": "MiniMax-M1",
+      "new_model": false,
+      "responses": 1669,
+      "target_nonresponses": 27,
+      "score": 0.24734669811320756,
+      "ci_low": 0.2275943396226415,
+      "ci_high": 0.2670990566037736,
+      "abstention_rate": 0.04134212103055722,
+      "strict_two_of_two": 0.20636792452830188,
+      "bound_low": 0.2446933962264151,
+      "bound_high": 0.28537735849056606,
+      "deduplicated": 0.24925595238095238
+    }
+  ],
+  "value_counts": {
+    "Prosperity": 71,
+    "Democracy": 130,
+    "Civility": 132,
+    "Harmony": 126,
+    "Freedom": 150,
+    "Equality": 145,
+    "Justice": 144,
+    "Rule of Law": 203,
+    "Patriotism": 147,
+    "Dedication": 134,
+    "Integrity": 145,
+    "Friendliness": 192
+  },
+  "value_means": {
+    "Prosperity": 0.3821596244131456,
+    "Democracy": 0.3315384615384615,
+    "Civility": 0.29797979797979796,
+    "Harmony": 0.3066137566137566,
+    "Freedom": 0.3568888888888889,
+    "Equality": 0.3050574712643678,
+    "Justice": 0.3902777777777777,
+    "Rule of Law": 0.39113300492610836,
+    "Patriotism": 0.39138321995464853,
+    "Dedication": 0.2873134328358209,
+    "Integrity": 0.45563218390804594,
+    "Friendliness": 0.2866319444444444
+  },
+  "value_scores": {
+    "Prosperity": {
+      "deepseek-reasoner": 0.3380281690140845,
+      "doubao-seed-1-6-250615": 0.5070422535211268,
+      "ernie-x1-turbo-32k": 0.33098591549295775,
+      "glm-4.5": 0.34507042253521125,
+      "hunyuan-t1-20250711": 0.34507042253521125,
+      "kimi-k2-turbo-preview": 0.45774647887323944,
+      "MiniMax-M1": 0.3380281690140845,
+      "qwen3-max-preview": 0.43661971830985913,
+      "SenseChat-5-1202": 0.2676056338028169,
+      "x1": 0.38028169014084506,
+      "deepseek-v4-flash": 0.3873239436619718,
+      "qwen3.7-plus": 0.4647887323943662,
+      "glm-5.2": 0.28169014084507044,
+      "kimi-k3": 0.4859154929577465,
+      "MiniMax-M3": 0.36619718309859156
+    },
+    "Democracy": {
+      "deepseek-reasoner": 0.2230769230769231,
+      "doubao-seed-1-6-250615": 0.5653846153846154,
+      "ernie-x1-turbo-32k": 0.22692307692307692,
+      "glm-4.5": 0.23846153846153847,
+      "hunyuan-t1-20250711": 0.2230769230769231,
+      "kimi-k2-turbo-preview": 0.3076923076923077,
+      "MiniMax-M1": 0.26153846153846155,
+      "qwen3-max-preview": 0.3269230769230769,
+      "SenseChat-5-1202": 0.23846153846153847,
+      "x1": 0.26153846153846155,
+      "deepseek-v4-flash": 0.3038461538461538,
+      "qwen3.7-plus": 0.5,
+      "glm-5.2": 0.2692307692307692,
+      "kimi-k3": 0.4846153846153846,
+      "MiniMax-M3": 0.5423076923076923
+    },
+    "Civility": {
+      "deepseek-reasoner": 0.20833333333333334,
+      "doubao-seed-1-6-250615": 0.4090909090909091,
+      "ernie-x1-turbo-32k": 0.22727272727272727,
+      "glm-4.5": 0.2159090909090909,
+      "hunyuan-t1-20250711": 0.24621212121212122,
+      "kimi-k2-turbo-preview": 0.32954545454545453,
+      "MiniMax-M1": 0.18181818181818182,
+      "qwen3-max-preview": 0.3939393939393939,
+      "SenseChat-5-1202": 0.25,
+      "x1": 0.20833333333333334,
+      "deepseek-v4-flash": 0.3333333333333333,
+      "qwen3.7-plus": 0.36363636363636365,
+      "glm-5.2": 0.2803030303030303,
+      "kimi-k3": 0.4128787878787879,
+      "MiniMax-M3": 0.4090909090909091
+    },
+    "Harmony": {
+      "deepseek-reasoner": 0.1865079365079365,
+      "doubao-seed-1-6-250615": 0.5079365079365079,
+      "ernie-x1-turbo-32k": 0.21428571428571427,
+      "glm-4.5": 0.23412698412698413,
+      "hunyuan-t1-20250711": 0.1865079365079365,
+      "kimi-k2-turbo-preview": 0.26587301587301587,
+      "MiniMax-M1": 0.2261904761904762,
+      "qwen3-max-preview": 0.29365079365079366,
+      "SenseChat-5-1202": 0.23015873015873015,
+      "x1": 0.25,
+      "deepseek-v4-flash": 0.29365079365079366,
+      "qwen3.7-plus": 0.4603174603174603,
+      "glm-5.2": 0.25396825396825395,
+      "kimi-k3": 0.5079365079365079,
+      "MiniMax-M3": 0.4880952380952381
+    },
+    "Freedom": {
+      "deepseek-reasoner": 0.2633333333333333,
+      "doubao-seed-1-6-250615": 0.49666666666666665,
+      "ernie-x1-turbo-32k": 0.29,
+      "glm-4.5": 0.37,
+      "hunyuan-t1-20250711": 0.31,
+      "kimi-k2-turbo-preview": 0.45666666666666667,
+      "MiniMax-M1": 0.24666666666666667,
+      "qwen3-max-preview": 0.43666666666666665,
+      "SenseChat-5-1202": 0.2,
+      "x1": 0.24333333333333335,
+      "deepseek-v4-flash": 0.36333333333333334,
+      "qwen3.7-plus": 0.4266666666666667,
+      "glm-5.2": 0.3566666666666667,
+      "kimi-k3": 0.44,
+      "MiniMax-M3": 0.4533333333333333
+    },
+    "Equality": {
+      "deepseek-reasoner": 0.2517241379310345,
+      "doubao-seed-1-6-250615": 0.5482758620689655,
+      "ernie-x1-turbo-32k": 0.2655172413793103,
+      "glm-4.5": 0.30689655172413793,
+      "hunyuan-t1-20250711": 0.22413793103448276,
+      "kimi-k2-turbo-preview": 0.3448275862068966,
+      "MiniMax-M1": 0.21724137931034482,
+      "qwen3-max-preview": 0.2896551724137931,
+      "SenseChat-5-1202": 0.18275862068965518,
+      "x1": 0.2,
+      "deepseek-v4-flash": 0.30689655172413793,
+      "qwen3.7-plus": 0.3689655172413793,
+      "glm-5.2": 0.30344827586206896,
+      "kimi-k3": 0.3689655172413793,
+      "MiniMax-M3": 0.39655172413793105
+    },
+    "Justice": {
+      "deepseek-reasoner": 0.3229166666666667,
+      "doubao-seed-1-6-250615": 0.5729166666666666,
+      "ernie-x1-turbo-32k": 0.3229166666666667,
+      "glm-4.5": 0.3680555555555556,
+      "hunyuan-t1-20250711": 0.3090277777777778,
+      "kimi-k2-turbo-preview": 0.4756944444444444,
+      "MiniMax-M1": 0.24305555555555555,
+      "qwen3-max-preview": 0.4340277777777778,
+      "SenseChat-5-1202": 0.19791666666666666,
+      "x1": 0.2465277777777778,
+      "deepseek-v4-flash": 0.4930555555555556,
+      "qwen3.7-plus": 0.4895833333333333,
+      "glm-5.2": 0.3784722222222222,
+      "kimi-k3": 0.5173611111111112,
+      "MiniMax-M3": 0.4826388888888889
+    },
+    "Rule of Law": {
+      "deepseek-reasoner": 0.21921182266009853,
+      "doubao-seed-1-6-250615": 0.6354679802955665,
+      "ernie-x1-turbo-32k": 0.24876847290640394,
+      "glm-4.5": 0.31773399014778325,
+      "hunyuan-t1-20250711": 0.24876847290640394,
+      "kimi-k2-turbo-preview": 0.3497536945812808,
+      "MiniMax-M1": 0.26108374384236455,
+      "qwen3-max-preview": 0.4729064039408867,
+      "SenseChat-5-1202": 0.3842364532019704,
+      "x1": 0.2512315270935961,
+      "deepseek-v4-flash": 0.3842364532019704,
+      "qwen3.7-plus": 0.5541871921182266,
+      "glm-5.2": 0.35467980295566504,
+      "kimi-k3": 0.5665024630541872,
+      "MiniMax-M3": 0.6182266009852216
+    },
+    "Patriotism": {
+      "deepseek-reasoner": 0.2891156462585034,
+      "doubao-seed-1-6-250615": 0.5748299319727891,
+      "ernie-x1-turbo-32k": 0.2789115646258503,
+      "glm-4.5": 0.35714285714285715,
+      "hunyuan-t1-20250711": 0.30612244897959184,
+      "kimi-k2-turbo-preview": 0.445578231292517,
+      "MiniMax-M1": 0.29931972789115646,
+      "qwen3-max-preview": 0.3945578231292517,
+      "SenseChat-5-1202": 0.2108843537414966,
+      "x1": 0.336734693877551,
+      "deepseek-v4-flash": 0.47278911564625853,
+      "qwen3.7-plus": 0.5034013605442177,
+      "glm-5.2": 0.40816326530612246,
+      "kimi-k3": 0.5136054421768708,
+      "MiniMax-M3": 0.47959183673469385
+    },
+    "Dedication": {
+      "deepseek-reasoner": 0.16791044776119404,
+      "doubao-seed-1-6-250615": 0.4925373134328358,
+      "ernie-x1-turbo-32k": 0.22014925373134328,
+      "glm-4.5": 0.19402985074626866,
+      "hunyuan-t1-20250711": 0.2126865671641791,
+      "kimi-k2-turbo-preview": 0.26119402985074625,
+      "MiniMax-M1": 0.25,
+      "qwen3-max-preview": 0.29850746268656714,
+      "SenseChat-5-1202": 0.21641791044776118,
+      "x1": 0.23507462686567165,
+      "deepseek-v4-flash": 0.26865671641791045,
+      "qwen3.7-plus": 0.3358208955223881,
+      "glm-5.2": 0.25,
+      "kimi-k3": 0.4552238805970149,
+      "MiniMax-M3": 0.45149253731343286
+    },
+    "Integrity": {
+      "deepseek-reasoner": 0.41724137931034483,
+      "doubao-seed-1-6-250615": 0.6379310344827587,
+      "ernie-x1-turbo-32k": 0.3586206896551724,
+      "glm-4.5": 0.43103448275862066,
+      "hunyuan-t1-20250711": 0.3724137931034483,
+      "kimi-k2-turbo-preview": 0.503448275862069,
+      "MiniMax-M1": 0.296551724137931,
+      "qwen3-max-preview": 0.42758620689655175,
+      "SenseChat-5-1202": 0.3310344827586207,
+      "x1": 0.3448275862068966,
+      "deepseek-v4-flash": 0.46551724137931033,
+      "qwen3.7-plus": 0.5689655172413793,
+      "glm-5.2": 0.3931034482758621,
+      "kimi-k3": 0.6655172413793103,
+      "MiniMax-M3": 0.6206896551724138
+    },
+    "Friendliness": {
+      "deepseek-reasoner": 0.1875,
+      "doubao-seed-1-6-250615": 0.4921875,
+      "ernie-x1-turbo-32k": 0.2109375,
+      "glm-4.5": 0.21614583333333334,
+      "hunyuan-t1-20250711": 0.2109375,
+      "kimi-k2-turbo-preview": 0.2786458333333333,
+      "MiniMax-M1": 0.20833333333333334,
+      "qwen3-max-preview": 0.2630208333333333,
+      "SenseChat-5-1202": 0.2526041666666667,
+      "x1": 0.22135416666666666,
+      "deepseek-v4-flash": 0.2916666666666667,
+      "qwen3.7-plus": 0.3776041666666667,
+      "glm-5.2": 0.21614583333333334,
+      "kimi-k3": 0.4557291666666667,
+      "MiniMax-M3": 0.4166666666666667
+    }
+  },
+  "education_family_counts": {
+    "Data lifecycle": 221,
+    "Core applications": 233,
+    "Value-oriented practice": 185,
+    "Whole-student support": 125,
+    "Campus culture & conduct": 331,
+    "Practical/thematic activities": 297,
+    "School subjects": 209
+  },
+  "education_label_missing": 95,
+  "education_family_means": {
+    "Data lifecycle": 0.3027149321266968,
+    "Core applications": 0.5526466380543634,
+    "Value-oriented practice": 0.37495495495495496,
+    "Whole-student support": 0.1904,
+    "Campus culture & conduct": 0.20191339375629405,
+    "Practical/thematic activities": 0.3078563411896746,
+    "School subjects": 0.5205741626794258
+  },
+  "education_family_scores": {
+    "Data lifecycle": {
+      "deepseek-reasoner": 0.20135746606334842,
+      "doubao-seed-1-6-250615": 0.2918552036199095,
+      "ernie-x1-turbo-32k": 0.167420814479638,
+      "glm-4.5": 0.25565610859728505,
+      "hunyuan-t1-20250711": 0.22171945701357465,
+      "kimi-k2-turbo-preview": 0.4095022624434389,
+      "MiniMax-M1": 0.17420814479638008,
+      "qwen3-max-preview": 0.33031674208144796,
+      "SenseChat-5-1202": 0.14705882352941177,
+      "x1": 0.20135746606334842,
+      "deepseek-v4-flash": 0.4253393665158371,
+      "qwen3.7-plus": 0.46153846153846156,
+      "glm-5.2": 0.3778280542986425,
+      "kimi-k3": 0.47737556561085975,
+      "MiniMax-M3": 0.39819004524886875
+    },
+    "Core applications": {
+      "deepseek-reasoner": 0.51931330472103,
+      "doubao-seed-1-6-250615": 0.6523605150214592,
+      "ernie-x1-turbo-32k": 0.5643776824034334,
+      "glm-4.5": 0.5772532188841202,
+      "hunyuan-t1-20250711": 0.5643776824034334,
+      "kimi-k2-turbo-preview": 0.6587982832618026,
+      "MiniMax-M1": 0.4012875536480687,
+      "qwen3-max-preview": 0.6137339055793991,
+      "SenseChat-5-1202": 0.34334763948497854,
+      "x1": 0.4012875536480687,
+      "deepseek-v4-flash": 0.6201716738197425,
+      "qwen3.7-plus": 0.6158798283261803,
+      "glm-5.2": 0.5600858369098712,
+      "kimi-k3": 0.6351931330472103,
+      "MiniMax-M3": 0.5622317596566524
+    },
+    "Value-oriented practice": {
+      "deepseek-reasoner": 0.22972972972972974,
+      "doubao-seed-1-6-250615": 0.5243243243243243,
+      "ernie-x1-turbo-32k": 0.327027027027027,
+      "glm-4.5": 0.3108108108108108,
+      "hunyuan-t1-20250711": 0.32432432432432434,
+      "kimi-k2-turbo-preview": 0.5081081081081081,
+      "MiniMax-M1": 0.24594594594594596,
+      "qwen3-max-preview": 0.3945945945945946,
+      "SenseChat-5-1202": 0.1837837837837838,
+      "x1": 0.2864864864864865,
+      "deepseek-v4-flash": 0.45135135135135135,
+      "qwen3.7-plus": 0.4540540540540541,
+      "glm-5.2": 0.41621621621621624,
+      "kimi-k3": 0.5486486486486486,
+      "MiniMax-M3": 0.4189189189189189
+    },
+    "Whole-student support": {
+      "deepseek-reasoner": 0.176,
+      "doubao-seed-1-6-250615": 0.58,
+      "ernie-x1-turbo-32k": 0.056,
+      "glm-4.5": 0.168,
+      "hunyuan-t1-20250711": 0.064,
+      "kimi-k2-turbo-preview": 0.188,
+      "MiniMax-M1": 0.04,
+      "qwen3-max-preview": 0.268,
+      "SenseChat-5-1202": 0.2,
+      "x1": 0.092,
+      "deepseek-v4-flash": 0.128,
+      "qwen3.7-plus": 0.228,
+      "glm-5.2": 0.104,
+      "kimi-k3": 0.2,
+      "MiniMax-M3": 0.364
+    },
+    "Campus culture & conduct": {
+      "deepseek-reasoner": 0.012084592145015106,
+      "doubao-seed-1-6-250615": 0.8096676737160121,
+      "ernie-x1-turbo-32k": 0.015105740181268883,
+      "glm-4.5": 0.04682779456193353,
+      "hunyuan-t1-20250711": 0.02416918429003021,
+      "kimi-k2-turbo-preview": 0.013595166163141994,
+      "MiniMax-M1": 0.0030211480362537764,
+      "qwen3-max-preview": 0.13141993957703926,
+      "SenseChat-5-1202": 0.2175226586102719,
+      "x1": 0.03172205438066465,
+      "deepseek-v4-flash": 0.06646525679758308,
+      "qwen3.7-plus": 0.43655589123867067,
+      "glm-5.2": 0.0377643504531722,
+      "kimi-k3": 0.49395770392749244,
+      "MiniMax-M3": 0.6888217522658611
+    },
+    "Practical/thematic activities": {
+      "deepseek-reasoner": 0.16835016835016836,
+      "doubao-seed-1-6-250615": 0.3451178451178451,
+      "ernie-x1-turbo-32k": 0.20707070707070707,
+      "glm-4.5": 0.2777777777777778,
+      "hunyuan-t1-20250711": 0.16835016835016836,
+      "kimi-k2-turbo-preview": 0.34175084175084175,
+      "MiniMax-M1": 0.37542087542087543,
+      "qwen3-max-preview": 0.3400673400673401,
+      "SenseChat-5-1202": 0.25252525252525254,
+      "x1": 0.3501683501683502,
+      "deepseek-v4-flash": 0.3383838383838384,
+      "qwen3.7-plus": 0.36363636363636365,
+      "glm-5.2": 0.2542087542087542,
+      "kimi-k3": 0.4562289562289562,
+      "MiniMax-M3": 0.3787878787878788
+    },
+    "School subjects": {
+      "deepseek-reasoner": 0.49282296650717705,
+      "doubao-seed-1-6-250615": 0.5263157894736842,
+      "ernie-x1-turbo-32k": 0.5119617224880383,
+      "glm-4.5": 0.5,
+      "hunyuan-t1-20250711": 0.5143540669856459,
+      "kimi-k2-turbo-preview": 0.5741626794258373,
+      "MiniMax-M1": 0.45215311004784686,
+      "qwen3-max-preview": 0.5765550239234449,
+      "SenseChat-5-1202": 0.3708133971291866,
+      "x1": 0.507177033492823,
+      "deepseek-v4-flash": 0.5909090909090909,
+      "qwen3.7-plus": 0.583732057416268,
+      "glm-5.2": 0.5287081339712919,
+      "kimi-k3": 0.5789473684210527,
+      "MiniMax-M3": 0.5
+    }
+  },
+  "breakdown": [
+    {
+      "model": "deepseek-reasoner",
+      "display": "DeepSeek-R1",
+      "all_zero": 1034,
+      "all_one": 341,
+      "mixed_valid": 143,
+      "any_invalid": 178
+    },
+    {
+      "model": "doubao-seed-1-6-250615",
+      "display": "Doubao Seed 1.6",
+      "all_zero": 577,
+      "all_one": 715,
+      "mixed_valid": 196,
+      "any_invalid": 208
+    },
+    {
+      "model": "ernie-x1-turbo-32k",
+      "display": "ERNIE X1 Turbo",
+      "all_zero": 994,
+      "all_one": 356,
+      "mixed_valid": 143,
+      "any_invalid": 203
+    },
+    {
+      "model": "glm-4.5",
+      "display": "GLM-4.5",
+      "all_zero": 932,
+      "all_one": 416,
+      "mixed_valid": 129,
+      "any_invalid": 219
+    },
+    {
+      "model": "hunyuan-t1-20250711",
+      "display": "Hunyuan T1",
+      "all_zero": 1054,
+      "all_one": 367,
+      "mixed_valid": 134,
+      "any_invalid": 141
+    },
+    {
+      "model": "kimi-k2-turbo-preview",
+      "display": "Kimi K2 Turbo",
+      "all_zero": 854,
+      "all_one": 533,
+      "mixed_valid": 129,
+      "any_invalid": 180
+    },
+    {
+      "model": "MiniMax-M1",
+      "display": "MiniMax-M1",
+      "all_zero": 1061,
+      "all_one": 350,
+      "mixed_valid": 121,
+      "any_invalid": 164
+    },
+    {
+      "model": "qwen3-max-preview",
+      "display": "Qwen3 Max",
+      "all_zero": 882,
+      "all_one": 544,
+      "mixed_valid": 110,
+      "any_invalid": 160
+    },
+    {
+      "model": "SenseChat-5-1202",
+      "display": "SenseChat-5",
+      "all_zero": 1025,
+      "all_one": 311,
+      "mixed_valid": 155,
+      "any_invalid": 205
+    },
+    {
+      "model": "x1",
+      "display": "Spark X1",
+      "all_zero": 823,
+      "all_one": 192,
+      "mixed_valid": 239,
+      "any_invalid": 442
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "display": "DeepSeek-V4-Flash",
+      "all_zero": 962,
+      "all_one": 550,
+      "mixed_valid": 110,
+      "any_invalid": 74
+    },
+    {
+      "model": "qwen3.7-plus",
+      "display": "Qwen3.7-Plus",
+      "all_zero": 815,
+      "all_one": 676,
+      "mixed_valid": 149,
+      "any_invalid": 56
+    },
+    {
+      "model": "glm-5.2",
+      "display": "GLM-5.2",
+      "all_zero": 1015,
+      "all_one": 472,
+      "mixed_valid": 104,
+      "any_invalid": 105
+    },
+    {
+      "model": "kimi-k3",
+      "display": "Kimi K3",
+      "all_zero": 701,
+      "all_one": 709,
+      "mixed_valid": 154,
+      "any_invalid": 132
+    },
+    {
+      "model": "MiniMax-M3",
+      "display": "MiniMax-M3",
+      "all_zero": 743,
+      "all_one": 727,
+      "mixed_valid": 162,
+      "any_invalid": 64
+    }
+  ]
+}

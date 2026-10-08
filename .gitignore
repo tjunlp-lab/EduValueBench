@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+.venv/
+*.key
+*.pem
+credentials*.json
+__pycache__/
+*.py[cod]
+*.log
+outputs/
+runs/
